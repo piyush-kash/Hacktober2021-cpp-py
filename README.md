@@ -2,3 +2,7 @@
 Contribution for HacktoberFest 2021 Accepted
 
 *Contribute your CPP or Python Code with Proper problem statement or its corresponding website link and solution*
+
+Upload Your file and then create a Pull Request
+
+Happy contributing !!
