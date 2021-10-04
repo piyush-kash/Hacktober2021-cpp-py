@@ -3,8 +3,8 @@
 
 Contribution for HacktoberFest 2021 Accepted
 
-*Contribute your CPP or Python Code with Proper problem statement or its corresponding website link and solution*
+Contribute your Code with Proper problem statement/Title
 
-Upload Your file and then create a Pull Request
+*Fork this  Repository , Upload Your file,Contribute and then create a Pull Request*
 
 Happy Contributing !!
