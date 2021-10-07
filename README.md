@@ -5,6 +5,6 @@ Contribution for HacktoberFest 2021 Accepted
 
 Contribute your Code with Proper problem statement/Title
 
-*Fork this  Repository , Upload Your file,Contribute and then create a Pull Request*
+*Fork this  Repository ,Mark it Star, Upload Your file, Contribute and then create a Pull Request*
 
 Happy Contributing !!
