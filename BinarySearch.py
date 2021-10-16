@@ -1,4 +1,4 @@
-# Python3 Program for recursive binary search.
+# Algorithm for recursive binary search.
 
 # Steps ->
 
