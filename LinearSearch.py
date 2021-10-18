@@ -1,17 +1,25 @@
-# Algorithm for Linear Search in Python
+# Searching an element in a list/array in python
+# can be simply done using \'in\' operator
+# Example:
+# if x in arr:
+# print arr.index(x)
 
-# Steps ->
-# 1. Start from the leftmost element of arr[] and one by one compare it with each element of arr[].
-# 2. If element matches with an element, return the index.
-# 3. If element does not match with any of elements, return -1.
+# If you want to implement Linear Search in python
 
-array = [8, 14, 15, 17, 20, 2, 4, 6, 9, 18]
+# Linearly search x in arr[]
+# If x is present then return its location
+# else return -1
 
-def linearSearch(array, key):
-    for i in range(len(array)):
-        if array[i] == key:
-            return i
-    return -1
 
-x = linearSearch(array, 4)
-print(x)
+
+
+
+
+def search(arr, x):
+
+	for i in range(len(arr)):
+
+		if arr[i] == x:
+			return i
+
+	return -1
