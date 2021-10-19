@@ -1,0 +1,53 @@
+/** Given A, generate all structurally unique BST’s (binary search trees) that store values 1...A.  ***/
+
+
+class Binary{
+public:
+    
+    vector<TreeNode*> generate(int Start, int End)
+    {
+        vector<TreeNode*> v;
+
+        if(Start > End)
+        {
+            v.push_back(NULL);
+            return v;
+        }
+
+        if(Start == End)
+        {
+            v.push_back(new TreeNode(Start));
+            return v;
+        }
+
+        for(auto i=Start; i<=End; i++)
+        {
+            vector<TreeNode *> lft = generate(Start, i-1);
+            vector<TreeNode *> rgt = generate(i+1, End);
+
+            for(auto l : lft)
+            {
+                for(auto r : rgt)
+                {
+                    TreeNode *root = new TreeNode(i);
+
+                    root->left = l;
+                    root->right = r;
+
+                    v.push_back(root);
+                }
+            }
+        }
+        return v;
+    }
+
+    vector<TreeNode*> generateTrees(int n)
+    {
+        
+        if(n == 0)
+            return vector<TreeNode*>();
+        else 
+            return generate(1, n);
+    }
+};
+
