@@ -55,7 +55,7 @@ DFS_util(i, visited);
 int main() 
 { 
     // Create a graph
-DFSGraph gdfs(5); 
+DFSGraph gdfs[5]; 
 gdfs.addEdge(0, 1); 
 gdfs.addEdge(0, 2); 
 gdfs.addEdge(0, 3);
