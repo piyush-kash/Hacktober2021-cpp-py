@@ -5,6 +5,8 @@ Contribution for HacktoberFest 2021 Accepted
 
 Contribute your Code with Proper problem statement/Title
 
-*Fork this  Repository , <b> Mark it Star </b>, Upload Your file, Contribute and then create a Pull Request*
+*Fork this  Repository , <b> Mark it Star </b>, Upload Your file(make sure it is not already present in the repo) , Contribute and then create a Pull Request*
 
+ Follow the above steps Only then your PR will be merged .
+ 
 Happy Contributing !!
