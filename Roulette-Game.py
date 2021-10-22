@@ -1,3 +1,4 @@
+
 from random import randint
 
 totalAmount=1000                            #total amount invested 
