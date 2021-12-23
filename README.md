@@ -9,4 +9,7 @@ Contribute your Code with Proper problem statement/Title
 
  Follow the above steps Only then your PR will be merged .
  
+Feel free to make contribution to this repo.
+Thank You!!!
+ 
 Happy Contributing !!
