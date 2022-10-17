@@ -1,0 +1,17 @@
+ListNode* reverse(ListNode *node,ListNode *prev)
+{
+    if(node==NULL)
+    {
+        return prev;
+    }
+
+    ListNode *store = node->next;
+    node->next = prev;
+    return reverse(store,node);
+}
+
+void main()
+{
+	ListNode *head; //g=Given linked list
+	reverse(head,NULL);
+}
